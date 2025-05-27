@@ -222,7 +222,7 @@ span {
 }
 
 .logo-md {
-    width: 100px;
+    width: 200px;
 }
 
 .logo-sm {
@@ -231,6 +231,14 @@ span {
 
 .navbar {
     margin-bottom: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn-container {
+    display: flex;
+    gap: 2rem;
 }
 
 .hero-heading {
@@ -264,6 +272,21 @@ span {
 
 .footer {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links-container {
+    display: flex;
+    gap: 1rem;
+
 }
 
 .social-icon {
